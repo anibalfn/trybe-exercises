@@ -8,3 +8,4 @@ O que eu vou aprender na Trybe:
 - GitHub
 - JavaScript
 - Internet
+
