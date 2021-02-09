@@ -6,9 +6,5 @@ O que eu vou aprender na Trybe:
 - HTML
 - CSS
 - GitHub
-<<<<<<< HEAD
 - JavaScript
 - Internet
-=======
-- JavaScript
->>>>>>> dc92848ff3f2828b097dc0d79a67baebde5c2dde
