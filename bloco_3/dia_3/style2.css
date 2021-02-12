@@ -19,14 +19,11 @@
     margin-top: 70px;
     margin-left: 175px;
     position: absolute;
- 
- 
-}
+  }
 .word {
     width: 100px;
     margin-left: 300px;
     margin-top: -300px;
     position: absolute;
     z-index: 2;
-    
 }
