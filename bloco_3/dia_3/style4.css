@@ -42,3 +42,14 @@ h1, h2, h3 em {
   border: solid black 1px;
 }
 
+ul li:nth-last-child(n+3) {
+  color: blue;
+}
+
+/* ul li [class*=java] {
+  background-color: magenta;
+} */
+
+[class*="java"] {
+  background-color:magenta;
+}
