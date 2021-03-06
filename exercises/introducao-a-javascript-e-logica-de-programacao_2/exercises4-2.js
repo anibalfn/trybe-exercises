@@ -66,6 +66,15 @@ if (result === 0) {
 
 // Utilizando for , descubra qual o menor valor contido no array e imprima-o;
 
+let lowestValue = 999;
+
+for (let index = 0; index < numbers.length; index += 1) {
+    if (numbers[index] < lowestValue) {
+        lowestValue = numbers[index]
+    }
+}
+console.log(lowestValue);
+
 
 
 // Utilizando for , crie uma array que vá de 1 até 25 e imprima o resultado;
