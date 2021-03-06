@@ -37,9 +37,13 @@ let m = value / numbers.length;
 }
 
 
-
-
 // Utilizando for , descubra qual o maior valor contido no array e imprima-o;
+    let highestValue = 0;
+    for (let index = 0; index < numbers.length; index += 1) {
+        if (numbers[index] > highestValue) {
+            highestValue = numbers[index]
+        }
+    } console.log(highestValue);
 
 
 
