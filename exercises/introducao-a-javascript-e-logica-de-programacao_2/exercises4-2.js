@@ -49,6 +49,19 @@ let m = value / numbers.length;
 
 // Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
 
+let oddNumbers = 0;
+
+for (let index = 0; index < numbers.length; index += 1) {
+    if (numbers[index] % 2 !== 0) {
+        oddNumbers += 1;
+    }
+}
+
+if (result === 0) {
+    console.log('nenhum valor ímpar encontrado')
+} else {
+    console.log(oddNumbers);
+}
 
 
 // Utilizando for , descubra qual o menor valor contido no array e imprima-o;
