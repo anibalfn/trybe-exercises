@@ -1,17 +1,21 @@
 let size = 5;
 let symbol = '*';
 let inputLine = '';
-let inputPosition = size;
+let midOfMatrix = (size + 1) / 2;
+let left = midOfMatrix;
+let right = midOfMatrix;
 
-for (let lineIndex = 0; lineIndex <= size; lineIndex += 1) {
+
+for (let lineIndex = 0; lineIndex <= midOfMatrix; lineIndex += 1) {
     for (let columnIndex = 0; columnIndex <= size; columnIndex += 1) {
-        if (columnIndex < inputPosition) {
-            inputLine = inputLine + ' ';
-        } else {
+        if (columnIndex >= left && columnIndex <= right) {
             inputLine = inputLine + symbol;
+        } else {
+            inputLine = inputLine + ' ';
         }
     }
     console.log(inputLine);
     inputLine = '';
-    inputPosition -= 1;
+    right += 1;
+    left -= 1;
 }
